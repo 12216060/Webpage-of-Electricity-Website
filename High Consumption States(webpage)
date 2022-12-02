@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Consmuption States</title>
+    <style>
+        .container{
+            background-color:beige;
+          border: 2px solid black;
+          height:709px; 
+          
+          margin: auto;
+        }
+        #heading{
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+            background-color: bisque;
+        }
+        .states{
+            font-size: x-large;
+            margin: 30px;
+            border: 2px solid black;
+            width: 200px;
+            display: inline-block;
+            border-radius: 20px;
+            text-align: center;
+        background-color: aliceblue;
+        }
+        .continue{
+            position: absolute;
+            
+        }
+        .states:hover{
+            background-color:rgb(251, 251, 125) ;
+            width:200px;
+        }
+       #pvt{
+        border: 2px solid black;
+        text-align: center;
+       }
+       #about{
+        font-size: x-large;
+       }
+        
+    </style>
+</head>
+<body>
+  <div class="container" >
+    <h2 id="heading">High Consmuption States</h2>
+    <ol type="1">
+<li class="states">Telangana</li>
+<li class="states" > New Delhi</li>
+<li class="states">Tamil Nadu</li>
+<li class="states" > Maharashtra</li>
+<li class="states">Uttar Pradesh</li>
+<div id='about'>
+    <p>Electricity consumption in Indian homes has tripled since 2000. The percentage of households with access to electricity has increased from 55% in 2001 to more than 80% in 2017. In 2014, an electrified Indian household consumed about 90 units (kWh) of electricity per month on an average; enough to run four tube-lights, four ceiling fans, a television, a small refrigerator, and small kitchen appliances with typical usage hours and efficiency levels in India. This is three-fourths of the average monthly household consumption in China, a tenth of that in the USA, and a third of the world average. In this post, we take a closer look at data on India’s residential electricity and the disparities in access and consumption across states. We also reveal some inconsistencies between different sources, pointing to the need for better data.
+
+        All states show considerable increase in total residential electricity consumption in recent years according to data compiled by the Central Electricity Authority (CEA) from distribution companies (see Figure 1). Between 2004 and 2015, states like Assam, Bihar, Chhattisgarh, and Jharkhand with low initial household electrification showed a high growth rate of their residential electricity use (about 11%-16%). States with higher household electrification like Delhi, Punjab, Haryana, and Tamil Nadu grew at lower, but still substantial, rates (6%-8%), with high absolute numbers.</p>
+        <p>One, an electrified household in Delhi consumes about 250-270 units or kWh of electricity per month on average, approximately the same average amount consumed by an electrified household in Germany. At the same time, such an electrified household in Delhi consumes significantly more than other Indian cities (Chandigarh: 208 units; Ahmedabad: 160 units; Puducherry: 150 units; and Mumbai: 110 units). This is in part due to high ownership of air-conditioners (12% of total households) and air-coolers (70%), and tariff subsidies in Delhi. Yet, other socio-economic reasons still need to be examined.
+            Two, electrified households in larger states like Maharashtra, Gujarat, and Tamil Nadu, with higher rates of electrification, consume on an average a lower amount of about 80-90 units per month</p>
+</div>
+
+  
+
+    <div class="continue"> <input type="submit" value="continue" name="continue"> </div>
+    
+ 
+
+
+
+
+
+  </div>  
+  <div id="pvt"> &copy;Indian Electricity PVT LTD.</div>
+
+</body>
+</html>
